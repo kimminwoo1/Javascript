@@ -1,0 +1,6 @@
+ES6 문법중 하나인  TEmplate lLiteral
+
+function hello(name) {
+	console.log(`Hello ${name}!`);
+}
+ hello( ' 민우 ')     출력값 :   Hello 민우!

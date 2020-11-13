@@ -1,0 +1,63 @@
+변수 let
+상수 const 
+
+null 없다
+undefined  아직 정해지지 않았다
+
+<산술,대입 연산자>
+let a = 1;
+a += 3;      4
+a -=3;       1
+a *=3;      3
+a /= 3;     1
+
+let a= 1;
+a++;        1
+--a;        1
+
+<논리 연산자>
+NOT !  true를 false 로 false를 true로 바꿔준다
+AND && 양옆 불리언이 모두 트루일때만 트루가 된다 펄스가 있으면 무조건 펄스 
+OR || 둘중 하나가 트루라면 트루 
+ 
+NOT AND OR 순으로 계산됨
+
+<비교 연산자>
+const a = 1;
+const b = 1;
+const equals = a===b;
+
+!== 반대로 된다 NOT
+
+const a= 10;
+const b= 15; 
+const c= 15;
+console.log(a < b);     true
+console.log(b > a);     true
+console.log(b>=a);     true
+console.log(a<=c);     true    *이퀄사인이 뒤에온다
+
+<문자열 붙이기>
+const a = '안녕';
+const b = '하세요';
+
+console.log(a+b);      안녕하세요
+
+<조건문 if, else, else if>
+
+const a = 8;
+if (a + 1 === 5) {
+	console.log('5 입니다!');
+} else if (a === 10) {
+ 	console.log('10 입니다!');
+} else if (a === 7) {
+	console.log('7 입니다!');
+} else {
+	console.log('5도 아니고 10도 아닙니다, 7도 아니네요');                  출력: 5도 아니고 10도 아닙니다, 7도 아니네요
+}
+
+
+
+
+
+
